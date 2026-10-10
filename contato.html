@@ -25,6 +25,34 @@
     <hr>
     <main>
         
+        <form>
+          <fieldset>
+            <legend>Formulário de Contato</legend>
+            <label for="name">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Luís Fernando" required>
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@email.com" required>
+            <br><br>
+            <label for="subject">Assunto:</label>
+            <input type="text" id="subject" name="subject" placeholder="Escreva o assunto aqui..." required><br>
+            <select id="subject" name="subject" required>
+              <option value="">Selecione uma categoria</option>
+              <option value="feedback">Feedback</option>
+              <option value="general">Geral</option>
+              <option value="collaboration">Sugestões</option>
+              <option value="other">Outro</option>
+            </select>
+            <br><br>
+            <label for="message">Mensagem:</label> <br>
+            <textarea id="message" name="message" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+            <br><br>
+            <label>
+            <input type="checkbox" name="checkbox" id="checkbox" required>Eu concordo com os termos e condições
+            </label><br><br>
+            <button>Enviar formulário</button>
+          </fieldset>
+        </form>
 
     </main>
 
@@ -38,7 +66,7 @@
 
     <footer>
         <p>Desenvolvido por: Luís Fernando Marcello Tortosa</p>
-        <p id="">2026. Todos os direitos reservados</p>
+        <p id="">2026..&copy; Todos os direitos reservados</p>
         <br>
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" id="surpresa">Pequena
             surpresa</a>
