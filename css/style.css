@@ -2,7 +2,11 @@ body {
     background-color: #123837;
 }
 
-h1,h2,p, li, h3 {
+h1,h2,p, h3 {
+    color: #eccf2b;
+    text-align: center;
+}
+li {
     color: #eccf2b;
 }
 main {
@@ -13,11 +17,10 @@ header{
     text-align: center;
 }
 
-/*.curiosidade {
-    display: flex;
-    align-items: flex-start;
-    gap: 30px;
-}*/
+h2{
+    text-align: center;
+    margin-top: 20px;
+}
 .informacoes ul {
     flex: 0 0 300px;
 }
@@ -31,6 +34,11 @@ hr {
     border: 1px solid #1d9c673f;
 }
 
+#info{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
 
 
 nav {
@@ -52,8 +60,29 @@ nav a:hover {
 }
 
 
-.trailer {
+#trailer {
     display: flex;
     justify-content: center;
     margin: 30px auto;
+}
+#titulotrailer {
+    text-align: center;
+}
+#surpresa {
+    color: #d4af37;
+    text-decoration: none;
+}
+#surpresa:hover {
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between; /* Empurra um item para cada extremidade */
+    align-items: center;            /* Alinha os textos verticalmente ao centro */
+    padding: 20px;                  /* Ajuste o espaçamento interno conforme necessário */
+}
+
+h2 p{
+    margin-bottom: 20px;
 }
